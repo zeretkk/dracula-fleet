@@ -22,6 +22,8 @@
     "popup.editor.background": "Background",
     "popup.listItem.background.default": "Background",
     "popup.tabPanel.background": "Background",
+    "listItem.background.hovered": "Comment",
+    "popup.listItem.background.hovered": "Comment",
     "border": "4e4c63",
     "fill": "Background",
     "focusRing": "Comment",
