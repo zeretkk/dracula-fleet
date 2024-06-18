@@ -14,6 +14,7 @@
     "tool.background": "Background",
     "tab.background.default": "Background",
     "tab.background.selected": "Comment",
+    "tab.background.hovered": "CommentTSP",
     "terminal.ansiColors.background.ansiBlack": "Background",
     "background.primary": "Background",
     "mainToolbar.background": "Background",
@@ -22,8 +23,8 @@
     "popup.editor.background": "Background",
     "popup.listItem.background.default": "Background",
     "popup.tabPanel.background": "Background",
-    "listItem.background.hovered": "Comment",
-    "popup.listItem.background.hovered": "Comment",
+    "listItem.background.hovered": "CommentTSP",
+    "popup.listItem.background.hovered": "CommentTSP",
     "border": "4e4c63",
     "fill": "Background",
     "focusRing": "Comment",
@@ -415,6 +416,17 @@
       "fgColor": "Green",
       "layer": 20
     },
+    "identifier.function.declaration.js": {
+      "fgColor": "Green",
+      "layer": 20,
+      "fontModifier": {
+        "semiBold": true
+      }
+    },
+    "identifier.function.call.js": {
+      "fgColor": "Green",
+      "layer": 20
+    },
     "identifier.function.call.suspend": {
       "fgColor": "Fg",
       "layer": 20
@@ -424,6 +436,13 @@
       "layer": 20
     },
     "identifier.method.static": {
+      "fgColor": "Green",
+      "layer": 30,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "identifier.method.static.js": {
       "fgColor": "Green",
       "layer": 20,
       "fontModifier": {
@@ -653,6 +672,7 @@
     "Cl": "44475a",
     "Fg": "f8f8f2",
     "Comment": "6272a4",
+    "CommentTSP": "6272a412",
     "Cyan": "8be9fd",
     "Green": "50fa7b",
     "Orange": "ffb86c",
